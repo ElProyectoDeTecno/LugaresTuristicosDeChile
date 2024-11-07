@@ -41,6 +41,19 @@
             font-size: 20px;
             margin-bottom: 10px;
         }
+
+        /* Estilo para centrar el iframe del video */
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .video-container iframe {
+            width: 640px;
+            height: 360px;
+            border: none;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -68,14 +81,20 @@
           La torre campanario se encuentra ubicada en el Cerro de Puerto Montt, a un costado del Colegio San Francisco Javier. Desde allí, se puede disfrutar de una vista panorámica de la ciudad y sus alrededores.
         </h3>
 
-        <!-- Segunda imagen con clase para tamaño reducido -->
-        <img class="second-image" src="https://i.postimg.cc/J0c3QMfT/Imagen-Torre.jpg" alt="Screenshot desde el computador">
+        <!-- Video de Google Drive -->
+        <div class="video-container">
+            <iframe src="https://drive.google.com/uc?export=download&id=1a-PUa_7GPTJYaJgSwTnShKdYYMiYWgqu" 
+                    allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
 
         <h2>Impacto Social y Económico</h2>
         <h3>
           La Torre Campanario San Francisco Javier, símbolo histórico de Puerto Montt, tiene un impacto cultural significativo al representar la influencia europea en la arquitectura local y ser un centro religioso y social para la comunidad. Su valor patrimonial refuerza la identidad regional y atrae turismo, lo que impulsa la economía local. 
           Además, es testigo de eventos históricos importantes, consolidando su relevancia cultural. La conservación de este ícono refuerza el orgullo por el patrimonio del sur de Chile.
         </h3>
+
+        <!-- Segunda imagen con clase para tamaño reducido -->
+        <img class="second-image" src="https://i.postimg.cc/J0c3QMfT/Imagen-Torre.jpg" alt="Screenshot desde el computador">
     </div>
     
 </body>
